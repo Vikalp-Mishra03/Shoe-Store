@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vampire Shoe Store</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div id="header">
+        <a href="#"><img src="images/vampire.png" class="logo" width="125px"></a>
+        <div class="navbar">
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a class="active" href="shop.html">Shop</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="account.html">Account</a></li>
+                </ul>
+            </nav>
+            <a href="cart.html"> <img src="images/cart.png" alt="" width="30px" height="30px"></a>
+            <img src="images/menu.png" class="menu-icon" onclick="menutoggle()" width="30px" height="30px">
+        </div>
+    </div>
+
+    <div class="product-details section-p1">
+        <div class="single-product-details-img">
+            <img src="images/item-12.jpg" alt="" width="100%" id="MainImg">
+            <div class="small-img-group">
+                <div class="small-img-col">
+                    <img src="images/item-13.jpg" alt="" width="100%" class="small-img">
+                </div>
+                <div class="small-img-col">
+                    <img src="images/item-14.jpg" alt="" width="100%" class="small-img">
+                </div>
+                <div class="small-img-col">
+                    <img src="images/item-15.jpg" alt="" width="100%" class="small-img">
+                </div>
+                <div class="small-img-col">
+                    <img src="images/item-16.jpg" alt="" width="100%" class="small-img">
+                </div>
+            </div>
+        </div>
+        <div class="single-product-details">
+            <h6>Nike Shoe</h6>
+            <h4>Men's Fashion Shoe</h4>
+            <h2>50,000.00</h2>
+            <select>
+                <option>Select Size</option>
+                <option>XL</option>
+                <option>XXL</option>
+                <option>Small</option>
+                <option>Large</option>
+            </select>
+            <input type="number" value="1">
+            <button class="green">Add to Cart</button>
+            <h4>Product Details</h4>
+            <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo consequatur, autem corporis aliquam
+                itaque esse amet suscipit quam fugit alias odit deleniti error necessitatibus pariatur incidunt
+               </span>
+        </div>
+    </div>
+    <div class="h">
+        <div id="product" class="section-p1">
+            <h2>Featured Products</h2>
+            <div class="row">
+                <div class="pro">
+                    <img src="images/item-3.jpg" alt="">
+                    <div class="des">
+                        <span>X-sparx</span>
+                        <h5>Sneaker</h5>
+                        <div class="star">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-o"></i>
+                            <i class="fa fa-star-o"></i>
+                        </div>
+                        <h4>₹1000.00</h4>
+                    </div>
+                </div>
+                <div class="pro">
+                    <img src="images/item-4.jpg" alt="">
+                    <div class="des">
+                        <span>Sports</span>
+                        <h5>Running Shoe</h5>
+                        <div class="star">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half-o"></i>
+                        </div>
+                        <h4>₹1000.00</h4>
+                    </div>
+                </div>
+                <div class="pro">
+                    <img src="images/item-5.jpg" alt="">
+                    <div class="des">
+                        <span>Gucci</span>
+                        <h5>Red Heel</h5>
+                        <div class="star">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-o"></i>
+                        </div>
+                        <h4>₹1000.00</h4>
+                    </div>
+                </div>
+                <div class="pro">
+                    <img src="images/item-6.jpg" alt="">
+                    <div class="des">
+                        <span>Cloud Tech</span>
+                        <h5>basketball Shoe</h5>
+                        <div class="star">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </div>
+                        <h4>₹1000.00</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="pro">
+                    <img src="images/item-9.jpg" alt="">
+                    <div class="des">
+                        <span>Merell</span>
+                        <h5>Party Wear</h5>
+                        <div class="star">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half-o"></i>
+                            <i class="fa fa-star-o"></i>
+                        </div>
+                        <h4>₹1000.00</h4>
+                    </div>
+                </div>
+                <div class="pro">
+                    <img src="images/item-10.jpg" alt="">
+                    <div class="des">
+                        <span>Puma</span>
+                        <h5>Sandals</h5>
+                        <div class="star">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half-o"></i>
+                        </div>
+                        <h4>₹1000.00</h4>
+                    </div>
+                </div>
+                <div class="pro">
+                    <img src="images/item-11.jpg" alt="">
+                    <div class="des">
+                        <span>Nike</span>
+                        <h5>Jordan</h5>
+                        <div class="star">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </div>
+                        <h4>₹1000.00</h4>
+                    </div>
+                </div>
+                <div class="pro">
+                    <img src="images/item-12.jpg" alt="">
+                    <div class="des">
+                        <span>Nike</span>
+                        <h5>Sports</h5>
+                        <div class="star">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </div>
+                        <h4>₹1000.00</h4>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+
+        </div>
+
+    </div>
+
+    <!-- ------------------------------newsletter----------------------- -->
+    <div class="newsletter">
+        <div class="sing">
+            <h2>Sign Up For Newsletter</h2>
+            <p>Get E-mail updates about our latest shop and <span>special offers</span></p>
+        </div>
+        <div class="form">
+            <input type="text" placeholder="Your E-mail Address">
+            <button class="green">Sign Up</button>
+        </div>
+    </div>
+    <!-----------------------------footer---------------------------------->
+
+    <footer>
+        <div class="address">
+            <img src="images/vampire.png" alt="" width="125px">
+
+            <h4>Contact</h4>
+            <div class="address">
+                <p><b>Address</b>: Ramnagar, (Nainital)</p>
+                <p><b>Phone No.</b>: +91 2345678933</p>
+                <p><b>Hours</b>: 10:00 am to 09:00 pm</p>
+            </div>
+        </div>
+        <div class="about">
+            <h4>About</h4>
+            <a href="about.html">About Us</a>
+            <a href="#">Delivery Information</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Condition</a>
+            <a href="contact.html">Contact Us</a>
+        </div>
+        <div class="account">
+            <h4>My Account</h4>
+            <a href="#">Sign In</a>
+            <a href="#">View Cart</a>
+            <a href="#">My Wishlist</a>
+            <a href="#">Track my order</a>
+            <a href="#">Help</a>
+        </div>
+        <div class="app">
+
+            <h4>Install App</h4>
+            <p>From App Store or Google Play</p>
+
+            <div class="store">
+                <img src="images/app-store.png" alt="" width="125px">
+                <img src="images/play-store.png" alt="" width="125px">
+            </div>
+
+        </div>
+    </footer>
+
+    <script src="toogle.js"></script>
+    <script src="productdetail.js"></script>
+</body>

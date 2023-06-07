@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vampire Shoe Store</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div id="header">
+        <a href="#"><img src="images/vampire.png" class="logo" width="125px"></a>
+        
+
+        <div class="navbar">
+            <nav>
+                <ul id="MenuItems">
+                    <li><a class="active" href="index.html">Home</a></li>
+                    <li><a href="shop.html">Shop</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="account.html">Account</a></li>
+                </ul>
+            </nav>
+
+            <a href="cart.html"> <img src="images/cart.png" alt="" width="30px" height="30px"></a>
+            <img src="images/menu.png" class="menu-icon" onclick="menutoggle()" width="30px" height="30px">
+        </div>
+    </div>
+
+    <div class="body">
+        <div class="slider">
+            <div class="slides">
+                <input type="radio" name="radio-btn" id="radio1">
+                <input type="radio" name="radio-btn" id="radio2">
+                <input type="radio" name="radio-btn" id="radio3">
+                <input type="radio" name="radio-btn" id="radio4">
+
+                <div class="slide first">
+                    <img src="images/top-banner1.jpg" alt="">
+                </div>
+                <div class="slide second">
+                    <img src="images/top-banner2.jpg" alt="">
+                </div>
+                <div class="slide third">
+                    <img src="images/top-banner3.jpg" alt="">
+                </div>
+                <div class="slide fourth">
+                    <img src="images/top-banner5.jpg" alt="">
+                </div>
+                <div class="navigation-auto">
+                    <div class="auto-btn1"></div>
+                    <div class="auto-btn2"></div>
+                    <div class="auto-btn3"></div>
+                    <div class="auto-btn4"></div>
+                </div>
+            </div>
+            <!-- <div class="manual">
+                <label for="radio1" class="manual-btn"></label>
+                <label for="radio2" class="manual-btn"></label>
+                <label for="radio3" class="manual-btn"></label>
+                <label for="radio4" class="manual-btn"></label> -->
+        </div>
+    </div>
+    <!-- -------------------------------categories---------------------------- -->
+
+    <div class="categories">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3">
+                    <img src="images/person1.jpg" alt="">
+                    <div class="layer">
+                        <h3>Woman</h3>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <img src="images/person2.jpg" alt="">
+                    <div class="layer">
+                        <h3>Man</h3>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <img src="images/kid (1).jpg" alt="">
+                    <div class="layer">
+                        <h3>Kid</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- -------------------------------featured product-------------------- -->
+
+    <div id="product" class="section-p1">
+        <h2>Featured Product</h2>
+        <div class="row">
+            <div class="pro">
+                <img src="images/item-1.jpg" alt="">
+                <div class="des">
+                    <span>Maca</span>
+                    <h5>Kids Shoe</h5>
+                    <div class="star">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <h4>₹1000.00</h4>
+                </div>
+            </div>
+            <div class="pro">
+                <img src="images/item-2.jpg" alt="">
+                <div class="des">
+                    <span>Gucci</span>
+                    <h5>Heel Shoe</h5>
+                    <div class="star">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                    </div>
+                    <h4>₹1000.00</h4>
+                </div>
+            </div>
+            <div class="pro">
+                <img src="images/item-3.jpg" alt="">
+                <div class="des">
+                    <span>X-sparx</span>
+                    <h5>Sneaker</h5>
+                    <div class="star">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <h4>₹1000.00</h4>
+                </div>
+            </div>
+            <div class="pro">
+                <img src="images/item-4.jpg" alt="">
+                <div class="des">
+                    <span>Sports</span>
+                    <h5>Running Shoe</h5>
+                    <div class="star">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                    </div>
+                    <h4>₹1000.00</h4>
+                </div>
+            </div>
+            <div class="pro">
+                <img src="images/item-5.jpg" alt="">
+                <div class="des">
+                    <span>Gucci</span>
+                    <h5>Red Heel</h5>
+                    <div class="star">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <h4>₹1000.00</h4>
+                </div>
+            </div>
+            <div class="pro">
+                <img src="images/item-6.jpg" alt="">
+                <div class="des">
+                    <span>Cloud Tech</span>
+                    <h5>basketball Shoe</h5>
+                    <div class="star">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <h4>₹1000.00</h4>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="pro">
+                <img src="images/item-7.jpg" alt="">
+                <div class="des">
+                    <span>Red Chief</span>
+                    <h5>Leather Shoe</h5>
+                    <div class="star">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <h4>₹1000.00</h4>
+                </div>
+            </div>
+            <div class="pro">
+                <img src="images/item-8.jpg" alt="">
+                <div class="des">
+                    <span>Red Chief</span>
+                    <h5>Leather Class</h5>
+                    <div class="star">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <h4>₹1000.00</h4>
+                </div>
+            </div>
+            <div class="pro">
+                <img src="images/item-9.jpg" alt="">
+                <div class="des">
+                    <span>Merell</span>
+                    <h5>Party Wear</h5>
+                    <div class="star">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <h4>₹1000.00</h4>
+                </div>
+            </div>
+            <div class="pro">
+                <img src="images/item-10.jpg" alt="">
+                <div class="des">
+                    <span>Puma</span>
+                    <h5>Sandals</h5>
+                    <div class="star">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                    </div>
+                    <h4>₹1000.00</h4>
+                </div>
+            </div>
+            <div class="pro">
+                <img src="images/item-11.jpg" alt="">
+                <div class="des">
+                    <span>Nike</span>
+                    <h5>Jordan</h5>
+                    <div class="star">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <h4>₹1000.00</h4>
+                </div>
+            </div>
+            <div class="pro">
+                <a href="productdetail.html"><img src="images/item-12.jpg" alt=""></a>             
+                    <span>Nike</span>
+                    <h5>Sports</h5>
+                    <div class="star">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <h4>₹1000.00</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ------------------------------banner------------------------------- -->
+    <div class="banner section-m1">
+        <h4>Services</h4>
+        <h2>Upto <span> 50% Off </span>- All Shoes</h2>
+        <button class="normal">Explore More</button>
+    </div>
+
+
+    <!-- ------------------------------------new arrival----------------------------- -->
+
+    <div id="product" class="section-p1">
+        <h2>New Arrivals</h2>
+        <div class="row">
+            <div class="pro">
+                <img src="images/item-1.jpg" alt="">
+                <div class="des">
+                    <span>Maca</span>
+                    <h5>Kids Shoe</h5>
+                    <div class="star">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <h4>₹1000.00</h4>
+                </div>
+            </div>
+            <div class="pro">
+                <img src="images/item-2.jpg" alt="">
+                <div class="des">
+                    <span>Gucci</span>
+                    <h5>Heel Shoe</h5>
+                    <div class="star">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                    </div>
+                    <h4>₹1000.00</h4>
+                </div>
+            </div>
+            <div class="pro">
+                <img src="images/item-3.jpg" alt="">
+                <div class="des">
+                    <span>X-sparx</span>
+                    <h5>Sneaker</h5>
+                    <div class="star">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <h4>₹1000.00</h4>
+                </div>
+            </div>
+            <div class="pro">
+                <img src="images/item-4.jpg" alt="">
+                <div class="des">
+                    <span>Sports</span>
+                    <h5>Running Shoe</h5>
+                    <div class="star">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                    </div>
+                    <h4>₹1000.00</h4>
+                </div>
+            </div>
+            <div class="pro">
+                <img src="images/item-5.jpg" alt="">
+                <div class="des">
+                    <span>Gucci</span>
+                    <h5>Red Heel</h5>
+                    <div class="star">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <h4>₹1000.00</h4>
+                </div>
+            </div>
+            <div class="pro">
+                <img src="images/item-6.jpg" alt="">
+                <div class="des">
+                    <span>Cloud Tech</span>
+                    <h5>basketball Shoe</h5>
+                    <div class="star">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <h4>₹1000.00</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ----------------------------------smaller banner--------------------------- -->
+    <div class="small-banner section-p1">
+        <div class="banner-box">
+            <h4>Crazy Deals</h4>
+            <h2>Buy 1 get 1 free</h2>
+            <span>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic.</span>
+            <button class="white">Learn More</button>
+        </div>
+        <div class="banner-box banner-box2">
+            <h4>Crazy Deals</h4>
+            <h2>Buy 1 get 1 free</h2>
+            <span>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic.</span>
+            <button class="white">Learn More</button>
+        </div>
+    </div>
+    <div class="newsletter">
+        <div class="sing">
+            <h2>Sign Up For Newsletter</h2>
+            <p>Get E-mail updates about our latest shop and <span>special offers</span></p>
+        </div>
+        <div class="form">
+            <input type="text" placeholder="Your E-mail Address">
+            <button class="green">Sign Up</button>
+        </div>
+    </div>
+    <!-- ----------------------------footer---------------------------------- -->
+    <footer>
+        <div class="address">
+            <img src="images/vampire.png" alt="" width="125px">
+
+            <h4>Contact</h4>
+            <div class="address">
+                <p><b>Address</b>: Ramnagar, (Nainital)</p>
+                <p><b>Phone No.</b>: +91 2345678933</p>
+                <p><b>Hours</b>: 10:00 am to 09.00 pm</p>
+            </div>
+        </div>
+        <div class="about">
+            <h4>About</h4>
+            <a href="about.html">About Us</a>
+            <a href="#">Delivery Information</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Condition</a>
+            <a href="contact.html">Contact Us</a>
+        </div>
+        <div class="account">
+            <h4>My Account</h4>
+            <a href="#">Sign In</a>
+            <a href="#">View Cart</a>
+            <a href="#">My Wishlist</a>
+            <a href="#">Track my order</a>
+            <a href="#">Help</a>
+        </div>
+        <div class="app">
+
+            <h4>Install App</h4>
+            <p>From App Store or Google Play</p>
+
+            <div class="store">
+                <img src="images/app-store.png" alt="" width="125px">
+                <img src="images/play-store.png" alt="" width="125px">
+            </div>
+
+        </div>
+    </footer>
+    <script src="slider.js"></script>
+    <script src="toogle.js"></script>
+</body>
+
+</html>

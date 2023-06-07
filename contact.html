@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vampire Shoe Store</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div id="header">
+        <a href="#"><img src="images/vampire.png" class="logo" width="125px"></a>
+
+
+        <div class="navbar">
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="shop.html">Shop</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a class="active" href="contact.html">Contact</a></li>
+                    <li><a href="account.html">Account</a></li>
+                </ul>
+            </nav>
+
+            <a href="cart.html"> <img src="images/cart.png" alt="" width="30px" height="30px"></a>
+            <img src="images/menu.png" class="menu-icon" onclick="menutoggle()" width="30px" height="30px">
+        </div>
+    </div>
+    <!-- ------------------------contact--------------------------------- -->
+    <div class="container1">
+        <div class="contact-us">
+            <div class="get-in-touch">
+                <h2>Visit one of our Store Location or Contact Us today</h2>
+                <h4>Head Office</h4>
+                <div class="location">
+                    <i class="fa fa-home"></i>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae,
+                        tempora!</p>
+                </div>
+                <div class="location">
+                    <i class="fa fa-envelope-o"></i>
+                    <p>contact@example.com</p>
+                </div>
+                <div class="location">
+                    <i class="fa fa-phone"></i>
+                    <p>+91 6395XXXXX9</p>
+                </div>
+                <div class="location">
+                    <i class="fa fa-clock"></i>
+                    <p>Monday to Satuarday 10:00 AM to 07:00 PM</p>
+                </div>
+
+
+
+            </div>
+            <div class="email">
+                <div class="contact-col" id="contact">
+                    <!-- <label for="">Name</label> -->
+                    <h2>Contact Us</h2>
+                    <input type="text" name="name" placeholder="Enter your name" required>
+                    <br>
+                    <br>
+                    <!-- <label for="">E-mail</label> -->
+                    <input type="email" name="email" placeholder="Enter Email Address" required>
+                    <br>
+                    <br>
+                    <!-- <label for="">Write your Problem</label> -->
+                    <input type="text" name="subject" placeholder="Enter your subject" required>
+                    <br>
+                    <br>
+                    <!-- <label for="">Write a Description</label> -->
+                    <!-- <br> -->
+
+                    <textarea name="message" placeholder="Message" required></textarea>
+                    <br>
+                    <br>
+                    <button type="submit" class="green">Send Message</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- ------------------------------newsletter----------------------- -->
+    <div class="newsletter">
+        <div class="sing">
+            <h2>Sign Up For Newsletter</h2>
+            <p>Get E-mail updates about our latest shop and <span>special offers</span></p>
+        </div>
+        <div class="form">
+            <input type="text" placeholder="Your E-mail Address">
+            <button class="green">Sign Up</button>
+        </div>
+    </div>
+
+
+    <!-- ----------------------------footer---------------------------------- -->
+    <footer>
+        <div class="address">
+            <img src="images/vampire.png" alt="" width="125px">
+
+            <h4>Contact</h4>
+            <div class="address">
+                <p><b>Address</b>: Ramnagar, (Nainital)</p>
+                <p><b>Phone No.</b>: +91 2345678933</p>
+                <p><b>Hours</b>: 10:00 am to 09.00 pm</p>
+            </div>
+        </div>
+        <div class="about">
+            <h4>About</h4>
+            <a href="about.html">About Us</a>
+            <a href="#">Delivery Information</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Condition</a>
+            <a href="contact.html">Contact Us</a>
+        </div>
+        <div class="account">
+            <h4>My Account</h4>
+            <a href="#">Sign In</a>
+            <a href="#">View Cart</a>
+            <a href="#">My Wishlist</a>
+            <a href="#">Track my order</a>
+            <a href="#">Help</a>
+        </div>
+        <div class="app">
+
+            <h4>Install App</h4>
+            <p>From App Store or Google Play</p>
+
+            <div class="store">
+                <img src="images/app-store.png" alt="" width="125px">
+                <img src="images/play-store.png" alt="" width="125px">
+            </div>
+
+        </div>
+    </footer>
+    <script src="slider.js"></script>
+    <script src="toogle.js"></script>
+</body>
+
+</html>

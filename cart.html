@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vampire Shoe Store</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div id="header">
+        <a href="#"><img src="images/vampire.png" class="logo" width="125px"></a>
+
+
+        <div class="navbar">
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="shop.html">Shop</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="account.html">Account</a></li>
+                </ul>
+            </nav>
+
+            <a href="cart.html"> <img src="images/cart.png" alt="" width="30px" height="30px"></a>
+            <img src="images/menu.png" class="menu-icon" onclick="menutoggle()" width="30px" height="30px">
+        </div>
+    </div>
+
+
+
+    <!-- --------cart item detail--------------- -->
+
+    <div class="small-container cart-item">
+        <table>
+            <tr>
+                <th>Product</th>
+                <th>Quantity</th>
+                <th>Subtotal</th>
+            </tr>
+            <tr>
+                <td>
+                    <div class="cart-info">
+                        <img src="images/item-1.jpg" alt="">
+                        <div>
+                            <p>
+                                Red T-shirt
+                            </p>
+                            <small>Price: ₹25.00</small> <br>
+                            <a href="">Remove</a>
+                        </div>
+                    </div>
+                </td>
+                <td><input type="number" value="1"></td>
+                <td>₹ 25.00</td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="cart-info">
+                        <img src="images/item-10.jpg" alt="">
+                        <div>
+                            <p>
+                                Shoe
+                            </p>
+                            <small>Price: ₹25.00</small> <br>
+                            <a href="">Remove</a>
+                        </div>
+                    </div>
+                </td>
+                <td><input type="number" value="1"></td>
+                <td>₹ 25.00</td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="cart-info">
+                        <img src="images/item-11.jpg" alt="">
+                        <div>
+                            <p>
+                                Trouser
+                            </p>
+                            <small>Price: ₹25.00</small> <br>
+                            <a href="">Remove</a>
+                        </div>
+                    </div>
+                </td>
+                <td><input type="number" value="1"></td>
+                <td>₹ 25.00</td>
+            </tr>
+        </table>
+
+
+
+        <div class="total-price">
+            <table>
+                <tr>
+                    <td>Subtotal</td>
+                    <td>₹200.00</td>
+                </tr>
+                <tr>
+                    <td>Tax</td>
+                    <td>₹35.00</td>
+                </tr>
+                <tr>
+                    <td>Total</td>
+                    <td>₹235.00</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+    <!-- ------------------------------newsletter----------------------- -->
+    <div class="newsletter">
+        <div class="sing">
+            <h2>Sign Up For Newsletter</h2>
+            <p>Get E-mail updates about our latest shop and <span>special offers</span></p>
+        </div>
+        <div class="form">
+            <input type="text" placeholder="Your E-mail Address">
+            <button class="green">Sign Up</button>
+        </div>
+    </div>
+
+
+    <!-- ----------------------------footer---------------------------------- -->
+    <footer>
+        <div class="address">
+            <img src="images/vampire.png" alt="" width="125px">
+
+            <h4>Contact</h4>
+            <div class="address">
+                <p><b>Address</b>: Ramnagar, (Nainital)</p>
+                <p><b>Phone No.</b>: +91 2345678933</p>
+                <p><b>Hours</b>: 10:00 am to 09.00 pm</p>
+            </div>
+        </div>
+        <div class="about">
+            <h4>About</h4>
+            <a href="about.html">About Us</a>
+            <a href="#">Delivery Information</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Condition</a>
+            <a href="contact.html">Contact Us</a>
+        </div>
+        <div class="account">
+            <h4>My Account</h4>
+            <a href="#">Sign In</a>
+            <a href="#">View Cart</a>
+            <a href="#">My Wishlist</a>
+            <a href="#">Track my order</a>
+            <a href="#">Help</a>
+        </div>
+        <div class="app">
+
+            <h4>Install App</h4>
+            <p>From App Store or Google Play</p>
+
+            <div class="store">
+                <img src="images/app-store.png" alt="" width="125px">
+                <img src="images/play-store.png" alt="" width="125px">
+            </div>
+
+        </div>
+    </footer>
+
+    <script src="toogle.js"></script>
+    <script src="account.js"></script>
+
+</body>
+
+</html>
